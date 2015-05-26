@@ -13,3 +13,7 @@ With the help of git status, you can see what files you have added to the stagin
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Situations in which branches are helpful are when you want to add a feature or make an improvement that you aren't sure will work out, so you still want there to be a working version of your code available. You can then branch off from the master directory with the new feature, but still have the master branch with the original code.
+
+5) How do the diagrams help you visualize the branch structure?
+
+The diagrams help to show the relationships between the branches, and how they are all connected. They also help to explain the meaning behind the "detached HEAD" warnings.
