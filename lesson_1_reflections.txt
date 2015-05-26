@@ -1,0 +1,29 @@
+Version Control Lesson 1 Reflections
+
+1) How did viewing a diff between two versions of a file help you spot the bug?
+
+Using the diff command helped because it automatically compared the two files and only displayed the differences between the two, making it easier to spot the changes that caused the errors.
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire history of a file can help you keep track of what it is that you have done, in case a change added recently conflicts with a previous code change. It also means that if you decide that you don't like a particular change, you have a record of how it used to be so you can change it back.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A pro of manual commits is that they're more likely to follow a logical pattern of changes, such as a bug fix or an added feature; they also won't occur while you are in the middle of typing a line of code, creating compile errors. A con is that you might forget to do a commit for a long period of time, making it harder to remember what you did, or there could be a sudden power outage, making you lose everything you had done since the last commit.
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a version control system that was designed with coders and programmers in mind, whereas Google Docs would be used by a much wider variety of professions, most of whom aren't programmers or developers. Most programs contain multiple files that will interact with each other in a variety of ways, meaning that it's more likely for changes in one file to require changes in other files at the same time. Saving multiple files in one commit when the changes have a logical connection just makes things easier for programmers.
+
+5) How can you use the commands git log and git diff to view the history of the files?
+
+git log will display a list of all the commits made to a particular project, including the id of the commit, when the commit occurred, and a user input text description of the commit. You can use git diff along with the ids of two commit to compare the differences between them.
+
+6) How might using version control make you more confident to make changes that could break something?
+
+With the help of version control, if a change causes serious problems with the program, you can checkout an older commit that was working and either compare them or discard the newer code entirely and go in a different direction.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+I will be using Git for work-related projects.
