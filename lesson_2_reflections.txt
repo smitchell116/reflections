@@ -9,3 +9,7 @@ The staging area is a sort of halfway point between the working directory and th
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 With the help of git status, you can see what files you have added to the staging area since the last commit as well as what files have been modified since being added to the staging area. It helps you decide whether or not a commit should take place.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Situations in which branches are helpful are when you want to add a feature or make an improvement that you aren't sure will work out, so you still want there to be a working version of your code available. You can then branch off from the master directory with the new feature, but still have the master branch with the original code.
