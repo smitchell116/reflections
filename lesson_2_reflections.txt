@@ -1,3 +1,7 @@
 1) What happens when you initialize a repository? Why do you need to do it?
 
 It turns your existing folder into a git repository and creates a special .git file which is hidden. This hidden .git file is used to record the history of changes made to the files in the repository and the repository itself. This is needed to be able to perform git commands and version control on a folder.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a sort of halfway point between the working directory and the repository. You add files to the staging area that you want to commit to the repository from the working directory, then you can commit multiple files at once. It gives you more control over what is and is not committed.
