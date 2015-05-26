@@ -17,3 +17,7 @@ Situations in which branches are helpful are when you want to add a feature or m
 5) How do the diagrams help you visualize the branch structure?
 
 The diagrams help to show the relationships between the branches, and how they are all connected. They also help to explain the meaning behind the "detached HEAD" warnings.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results in one branch that has all the changes made to both branches.
