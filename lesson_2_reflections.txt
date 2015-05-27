@@ -21,3 +21,7 @@ The diagrams help to show the relationships between the branches, and how they a
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together results in one branch that has all the changes made to both branches.
+
+7) What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging is faster, so it's easier to let Git do automatic merges when it can. But it can't always do automatic merges, so you're left to resolve conflicts on occasion. Doing it manually means more control over the process, but can be tedious and result in errors.
