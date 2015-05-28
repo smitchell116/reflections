@@ -17,3 +17,7 @@ Having the last known state of the remote stored locally can help you keep track
 5) How would you collaborate without using Git or GitHub? What would be easier? What would be harder?
 
 Without using Git or GitHub, you could collaborate by emailing code back and forth, staying in constant communication with coworkers to keep track of what changes are being made, slightly changing the name of the files each time to maintain old versions, using diff -u to compare files, etc. It might be easier in that people wouldn't have to learn how to use Git and GitHub, but it would also be a lot more labor intensive.
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You make changes in a separate branch when you are unsure if you want the changes committed directly to master. With the changes in a separate branch, you can make the changes, commit and push them to the remote repository, then generate a pull request so that others can look over the changes and decide to merge the changes into master. Using a separate branch allows for more control and more places to catch and correct errors, but working directly in master would be quicker and less complicated, which might be okay if you're the only one working on a project.
